@@ -3,7 +3,7 @@
 		"envinfo": "7.13.0",
 		"esbuild": "0.23.1",
 		"glob": "11.0.0",
-		"rolldown": "0.13.0"
+		"rolldown": "0.13.1"
 	},
 	"scripts": {
 		"build": "pnpm run -r build"
