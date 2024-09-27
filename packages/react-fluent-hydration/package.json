@@ -1,10 +1,10 @@
 {
 	"dependencies": {
-		"@fluentui/react-components": "9.54.2",
+		"@fluentui/react-components": "9.54.17",
 		"lodash-es": "4.17.21"
 	},
 	"devDependencies": {
-		"@swc/core": "1.6.5",
+		"@swc/core": "1.7.28",
 		"swc-loader": "0.2.6"
 	},
 	"scripts": {
