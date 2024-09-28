@@ -7,13 +7,13 @@
 		"build:webpack": "webpack"
 	},
 	"dependencies": {
-		"@fluentui/react-components": "^9.54.2",
-		"lodash-es": "^4.17.21",
-		"react": "^18.3.1",
-		"react-dom": "^18.3.1"
+		"@fluentui/react-components": "9.54.2",
+		"lodash-es": "4.17.21",
+		"react": "18.3.1",
+		"react-dom": "18.3.1"
 	},
 	"devDependencies": {
-		"@swc/core": "^1.6.5",
-		"swc-loader": "^0.2.6"
+		"@swc/core": "1.6.5",
+		"swc-loader": "0.2.6"
 	}
 }
