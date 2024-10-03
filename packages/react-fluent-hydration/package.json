@@ -1,17 +1,19 @@
 {
-	"dependencies": {
-		"@fluentui/react-components": "9.54.17",
-		"lodash-es": "4.17.21"
-	},
-	"devDependencies": {
-		"@swc/core": "1.7.26",
-		"swc-loader": "0.2.6"
-	},
-	"scripts": {
-		"build": "pnpm run /build:.*/",
-		"build:esbuild": "esbuild src/index.jsx --bundle --minify --outfile=esbuild-dist/index.js",
-		"build:parcel": "parcel build src/index.jsx --dist-dir parcel-dist --no-source-maps --no-cache",
-		"build:rolldown": "rolldown --config ./rolldown.config.mjs",
-		"build:webpack": "webpack"
-	}
+  "scripts": {
+    "build:webpack": "webpack",
+    "build:esbuild": "esbuild src/index.jsx --bundle --minify --outfile=esbuild-dist/index.js",
+    "build:parcel": "parcel build src/index.jsx --dist-dir parcel-dist --no-source-maps --no-cache",
+    "build:rolldown": "rolldown --config ./rolldown.config.mjs",
+    "build": "pnpm run /build:.*/"
+  },
+  "dependencies": {
+    "@fluentui/react-components": "^9.54.2",
+    "lodash-es": "^4.17.21",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@swc/core": "^1.6.5",
+    "swc-loader": "^0.2.6"
+  }
 }
