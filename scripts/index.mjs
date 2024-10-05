@@ -1,7 +1,8 @@
 // load using import
-import { glob } from "glob";
 import * as fs from "fs";
 import * as path from "path";
+import { glob } from "glob";
+
 import { persistEntries } from "./utils.mjs";
 
 const __dirname = import.meta.dirname;
