@@ -1,6 +1,6 @@
 {
 	"dependencies": {
-		"@fluentui/react-components": "9.54.17",
+		"@fluentui/react-components": "9.55.0",
 		"lodash-es": "4.17.21"
 	},
 	"devDependencies": {
