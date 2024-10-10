@@ -1,5 +1,4 @@
 import * as fs from "fs";
-
 export function persistEntries(entries, filename) {
 	for (let entry of entries) {
 		fs.writeFileSync(filename, JSON.stringify(entry), { flag: "a" });

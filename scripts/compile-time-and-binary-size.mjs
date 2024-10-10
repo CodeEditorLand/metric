@@ -1,8 +1,6 @@
-import * as path from "node:path";
-import { fileURLToPath } from "node:url";
-
 import { persistEntries } from "./utils.mjs";
-
+import * as path from 'node:path'
+import { fileURLToPath } from "node:url";
 const __dirname = fileURLToPath(new URL(".", import.meta.url));
 
 const compileTime = process.env.COMPILE_TIME;
@@ -19,7 +17,7 @@ const compileTimeEntry = {
 	records: {
 		rolldown: compileTime,
 	},
-	repoUrl: repoUrl ? `https://github.com/${repoUrl}` : "",
+  repoUrl: repoUrl ? `https://github.com/${repoUrl}` : ""
 };
 
 const binarySizeEntry = {
@@ -31,10 +29,7 @@ const binarySizeEntry = {
 	records: {
 		rolldown: binarySize,
 	},
-	repoUrl: repoUrl ? `https://github.com/${repoUrl}` : "",
+  repoUrl: repoUrl ? `https://github.com/${repoUrl}` : ""
 };
 
-persistEntries(
-	[compileTimeEntry, binarySizeEntry],
-	path.resolve(__dirname, "../metric.json"),
-);
+persistEntries([compileTimeEntry, binarySizeEntry], path.resolve(__dirname, "../metric.json"));
