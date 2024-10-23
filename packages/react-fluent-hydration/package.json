@@ -4,7 +4,7 @@
 		"lodash-es": "4.17.21"
 	},
 	"devDependencies": {
-		"@swc/core": "1.7.36",
+		"@swc/core": "1.7.39",
 		"swc-loader": "0.2.6"
 	},
 	"scripts": {
