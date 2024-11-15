@@ -1,11 +1,17 @@
 {
 	"devDependencies": {
-		"envinfo": "7.14.0",
-		"esbuild": "0.24.0",
-		"glob": "11.0.0",
-		"rolldown": "nightly"
+		"@rollup/plugin-terser": "^0.4.4",
+		"envinfo": "^7.13.0",
+		"esbuild": "^0.21.5",
+		"glob": "^10.4.2",
+		"parcel": "^2.12.0",
+		"rolldown": "0.14.0-snapshot-d5e797b-20241114003621",
+		"vite": "^5.3.1",
+		"webpack": "^5.92.1",
+		"webpack-cli": "^5.1.4"
 	},
 	"scripts": {
 		"build": "pnpm run -r build"
-	}
+	},
+	"packageManager": "pnpm@8.15.7"
 }
