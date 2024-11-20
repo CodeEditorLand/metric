@@ -1,11 +1,11 @@
 {
-	"scripts": {
-		"build": "pnpm run -r build"
-	},
 	"devDependencies": {
 		"envinfo": "7.14.0",
 		"esbuild": "0.24.0",
 		"glob": "11.0.0",
 		"rolldown": "0.14.0"
+	},
+	"scripts": {
+		"build": "pnpm run -r build"
 	}
 }
